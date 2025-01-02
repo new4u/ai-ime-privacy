@@ -8,115 +8,86 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #333;
         }
         h1 {
+            text-align: center;
             color: #2c3e50;
             border-bottom: 2px solid #eee;
             padding-bottom: 10px;
         }
         h2 {
-            color: #34495e;
+            color: #2c3e50;
             margin-top: 30px;
         }
-        ul {
-            padding-left: 20px;
-        }
-        .footer {
-            margin-top: 40px;
-            text-align: center;
+        .last-updated {
+            text-align: right;
             color: #666;
-            font-size: 0.9em;
+            font-style: italic;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>AI-IME 隐私政策</h1>
-        <p><em>最后更新日期：2025年1月2日</em></p>
+    <h1>AI-IME 隐私政策</h1>
 
-        <h2>1. 引言</h2>
-        <p>欢迎使用 AI-IME（"我们"，"我们的"或"本扩展程序"）。我们致力于保护您的隐私和个人信息。本隐私政策旨在说明我们如何收集、使用、存储和保护您的信息。</p>
+    <h2>1. 信息收集</h2>
+    <p>AI-IME 扩展程序会收集以下信息：</p>
+    <ul>
+        <li>您输入的文字内容（仅用于实时翻译和处理）</li>
+        <li>Notion 登录状态（如果您选择使用 Notion 集成功能）</li>
+        <li>用户电子邮件地址（仅用于验证订阅状态）</li>
+    </ul>
 
-        <h2>2. 信息收集</h2>
-        <h3>2.1 我们收集的信息</h3>
-        <ul>
-            <li>用户输入的文本数据</li>
-            <li>基本使用统计信息</li>
-            <li>浏览器版本信息</li>
-            <li>扩展程序设置偏好</li>
-        </ul>
+    <h2>2. 信息使用</h2>
+    <p>我们收集的信息将用于：</p>
+    <ul>
+        <li>提供实时输入法服务</li>
+        <li>同步内容到您的 Notion 账户（如果您启用此功能）</li>
+        <li>验证您的订阅状态</li>
+        <li>改进我们的服务质量</li>
+    </ul>
 
-        <h3>2.2 我们不收集的信息</h3>
-        <ul>
-            <li>密码或其他敏感认证信息</li>
-            <li>信用卡或支付信息</li>
-            <li>个人身份信息（如姓名、地址等）</li>
-        </ul>
+    <h2>3. 信息存储</h2>
+    <p>所有用户数据都存储在您的本地浏览器中，使用 Chrome 存储 API 进行安全存储。我们不会在服务器上永久存储您的个人信息。</p>
 
-        <h2>3. 信息使用</h2>
-        <p>我们收集的信息仅用于：</p>
-        <ul>
-            <li>提供和改进输入法服务</li>
-            <li>优化用户体验</li>
-            <li>解决技术问题</li>
-            <li>生成匿名使用统计</li>
-        </ul>
+    <h2>4. 第三方服务</h2>
+    <p>我们使用以下第三方服务：</p>
+    <ul>
+        <li>Notion API（用于笔记同步，仅在您授权后使用）</li>
+        <li>Buy Me a Coffee（用于订阅验证）</li>
+    </ul>
 
-        <h2>4. 数据存储和安全</h2>
-        <ul>
-            <li>所有数据都经过加密存储</li>
-            <li>我们采用行业标准的安全措施保护您的数据</li>
-            <li>本地数据存储在您的设备上，不会上传到云端</li>
-            <li>用户输入的文本仅在内存中临时处理，不会持久化存储</li>
-        </ul>
+    <h2>5. 数据安全</h2>
+    <p>我们采取以下措施保护您的数据：</p>
+    <ul>
+        <li>所有数据传输使用 HTTPS 加密</li>
+        <li>API 密钥和认证信息使用安全存储</li>
+        <li>定期检查和更新安全措施</li>
+    </ul>
 
-        <h2>5. 第三方服务</h2>
-        <p>本扩展程序不使用任何第三方分析服务或广告服务。</p>
+    <h2>6. 用户权利</h2>
+    <p>您有权：</p>
+    <ul>
+        <li>随时查看和删除您的数据</li>
+        <li>选择是否使用 Notion 集成功能</li>
+        <li>要求我们提供您的数据副本</li>
+    </ul>
 
-        <h2>6. 用户权利</h2>
-        <p>您有权：</p>
-        <ul>
-            <li>随时禁用或卸载扩展程序</li>
-            <li>清除本地存储的数据</li>
-            <li>要求了解您的数据使用情况</li>
-            <li>要求删除您的数据</li>
-        </ul>
+    <h2>7. 隐私政策更新</h2>
+    <p>我们可能会不时更新此隐私政策。更新后的政策将在本页面公布，并在扩展程序更新时通知用户。</p>
 
-        <h2>7. 儿童隐私</h2>
-        <p>本扩展程序不面向13岁以下的儿童，我们不会故意收集儿童的个人信息。</p>
+    <h2>8. 联系我们</h2>
+    <p>如果您对我们的隐私政策有任何疑问，请通过以下方式联系我们：</p>
+    <ul>
+        <li>微信：1259388</li>
+    </ul>
 
-        <h2>8. 隐私政策更新</h2>
-        <p>我们保留随时更新本隐私政策的权利。更新后的政策将在扩展程序中公布。</p>
-
-        <h2>9. 联系我们</h2>
-        <p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
-        <ul>
-            <li>电子邮件：admin@new4u.top</li>
-            <li>GitHub Issues：https://github.com/new4u/ai-ime-privacy/</li>
-        </ul>
-
-        <h2>10. 合规声明</h2>
-        <p>本隐私政策符合：</p>
-        <ul>
-            <li>Chrome网上应用店开发者计划政策</li>
-            <li>GDPR（欧盟通用数据保护条例）</li>
-            <li>CCPA（加州消费者隐私法案）</li>
-        </ul>
-
-        <div class="footer">
-            <p>© 2025 AI-IME. 保留所有权利。</p>
-        </div>
+    <div class="last-updated">
+        最后更新时间：2025年1月2日
     </div>
 </body>
 </html>
